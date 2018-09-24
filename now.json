@@ -1,0 +1,32 @@
+{
+  "name": "static",
+  "alias": [
+    "ssp-static"
+  ],
+  "files": [
+    "photos"
+  ],
+  "static": {
+    "directoryListing": false,
+    "headers": [
+      {
+        "source": "/photos/raw/*.jpg",
+        "headers": [
+          {
+            "key": "Content-Disposition",
+            "value": "attachment"
+          }
+        ]
+      },
+      {
+        "source": "*",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=86400"
+          }
+        ]
+      }
+    ]
+  }
+}

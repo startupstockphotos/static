@@ -1,0 +1,22 @@
+{
+  "name": "ssp-static",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "serve -l 3002"
+  },
+  "author": "estrattonbailey",
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^7.0.0",
+    "get-image-colors": "^1.8.1",
+    "image-size": "^0.6.3",
+    "jimp": "^0.4.0",
+    "log-update": "^2.3.0",
+    "minimist": "^1.2.0",
+    "node-vibrant": "^3.0.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "serve": "^10.0.1"
+  }
+}
